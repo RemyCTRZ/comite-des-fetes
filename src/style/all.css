@@ -1,0 +1,78 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+:root {
+    /* Colors */
+
+    --rouge: #FF3A3A;
+    --rouge-hover: hsla(0, 100%, 61%, 0.75);
+    --blanc-casse: #EDEDED;
+    --gris: #929292;
+}
+
+@font-face {
+    font-family: 'Readex';
+    src: url(../assets/fonts/ReadexPro-VariableFont_wght.ttf);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+
+    /* Fonts */
+    font-family: 'Readex', sans-serif;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}

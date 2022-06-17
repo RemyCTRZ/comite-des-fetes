@@ -1,0 +1,53 @@
+footer {
+    background-color: var(--rouge);
+}
+
+.footer_logos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+    padding: 3em;
+}
+
+.footer_logo {
+    height: 7em;
+    aspect-ratio: 1/1;
+}
+
+footer hr {
+    border-color: #ECECEC;
+    margin-inline: 10em;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 3em;
+}
+
+.footer_list a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2em;
+    transition: color .4s ease;
+}
+
+.footer_list a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mentions {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: #CE3030;
+}
+
+.mentions p {
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.7);
+}

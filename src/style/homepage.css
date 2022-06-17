@@ -1,0 +1,11 @@
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-image: url(../assets/images/homepage_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
