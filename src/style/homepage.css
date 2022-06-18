@@ -9,3 +9,82 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+header h1 {
+    color: #fff;
+    text-shadow: 0 0 4px black;
+    font-size: 2em;
+}
+
+.homepage_actu {
+    position: relative;
+    height: 20rem;
+    width: 30rem;
+    background-color: var(--blanc-casse);
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgb(0, 0, 0, .5);
+    border-radius: 2px;
+}
+
+.derniere_actu {
+    padding: 1rem 2rem 0 2rem;
+    font-weight: 600;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.homepage_actu .actu_txt {
+    padding: 1rem 2rem;
+}
+
+.homepage_actu .actu_titre {
+    display: flex;
+    align-items: flex-end;
+    gap: 1em;
+}
+
+.homepage_actu .actu_txt p {
+    display: none;
+}
+
+.homepage a {
+    color: var(--rouge);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.homepage a:hover {
+    text-decoration: underline;
+}
+
+.homepage article {
+    padding: 4em;
+}
+
+.titre_section {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2em;
+}
+
+.titre_section hr {
+    width: 70%;
+    height: 2px;
+}
+
+.titre_section a {
+    font-size: 2em;
+}
+
+.liste_actualites {
+    display: flex;
+    list-style-type: none;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.liste_actualites div {
+    flex: 1 1 100%;
+}
