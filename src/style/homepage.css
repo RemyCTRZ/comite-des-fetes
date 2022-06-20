@@ -11,6 +11,7 @@ header {
 }
 
 header h1 {
+    position: relative;
     color: #fff;
     text-shadow: 0 0 4px black;
     font-size: 2em;
@@ -24,6 +25,18 @@ header h1 {
     overflow: hidden;
     box-shadow: 0 4px 15px rgb(0, 0, 0, .5);
     border-radius: 2px;
+    transition: transform .4s ease-in-out;
+}
+
+.homepage_actu::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgb(0, 0, 0, 0) 50%, rgb(255, 255, 255) 100%);
+}
+
+.homepage_actu:hover {
+    transform: scale(1.1);
 }
 
 .derniere_actu {
@@ -43,30 +56,35 @@ header h1 {
     gap: 1em;
 }
 
-.homepage_actu .actu_txt p {
+.actu_card_header .date,
+.actu_card_header .txt {
     display: none;
 }
 
-.homepage a {
+.homepage .titre_section,
+.titre {
     color: var(--rouge);
-    cursor: pointer;
     font-weight: 600;
     font-size: 1.2em;
-}
-
-.homepage a:hover {
-    text-decoration: underline;
+    text-transform: capitalize;
 }
 
 .homepage article {
-    padding: 4em;
+    padding: 7rem;
 }
+
+/* Titre de chaque section */
 
 .titre_section {
     display: flex;
     justify-content: center;
     align-items: baseline;
     gap: 2em;
+    transition: transform .4s ease-in-out;
+}
+
+.titre_section:hover {
+    transform: scale(1.05);
 }
 
 .titre_section hr {
@@ -78,13 +96,139 @@ header h1 {
     font-size: 2em;
 }
 
+/* Liste des actualités */
+
 .liste_actualites {
     display: flex;
+    justify-content: center;
     list-style-type: none;
-    padding: 3rem;
+    margin: 3rem;
     gap: 2rem;
 }
 
-.liste_actualites div {
+/* Cartes section Actualités */
+
+.actu_card {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
     flex: 1 1 100%;
+    max-width: 25rem;
+    overflow: hidden;
+    transition: transform .4s ease-in-out;
+    cursor: pointer;
+}
+
+.actu_card:hover {
+    transform: scale(1.1);
+}
+
+.actu_card img {
+    aspect-ratio: 3/2;
+    width: 25rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+.date {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/* Bouton Voir Plus */
+
+.see_more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: .2em;
+    background-color: var(--rouge);
+    color: #fff;
+    border-radius: 50px;
+    padding: .3rem 1rem;
+    border: none;
+    transition: background-color .4s ease, transform .4s ease-in-out;
+    margin-inline: auto 7rem;
+}
+
+.see_more svg {
+    font-size: 1.7em;
+}
+
+.see_more:hover {
+    background-color: var(--rouge-hover);
+    transform: translateX(10px);
+}
+
+.see_more .active {
+    transform: translateX(400px);
+}
+
+/* EVENEMENTS */
+
+.art_evenements {
+    background-color: #ECECEC;
+}
+
+.liste_evenements {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    max-width: 50rem;
+}
+
+.event:first-child {
+    border-radius: 25px 25px 0 0;
+}
+
+.event:last-child {
+    border-radius: 0 0 25px 25px;
+}
+
+.event:nth-child(1n) {
+    background-color: #C1C1C1;
+}
+
+.event:nth-child(1n) .date_event {
+    background-color: var(--rouge);
+}
+
+.event:nth-child(2n) {
+    background-color: #DCDCDC;
+}
+
+.event:nth-child(2n) .date_event {
+    background-color: var(--rouge-hover);
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    overflow: hidden;
+    transition: transform .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.event:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px #555;
+}
+
+.date_event {
+    display: grid;
+    place-items: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    aspect-ratio: 1/1;
+    height: 7rem;
+
+}
+
+.titre_event {
+    font-size: 1.2em;
+    font-weight: 600;
 }
