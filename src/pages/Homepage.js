@@ -1,4 +1,5 @@
 import '../style/homepage.css';
+import '../style/keyframes.css'
 import ActuCard from '../components/ActuCard';
 import ActuCardGrid from '../components/ActuCardGrid';
 import { Actus } from '../components/Actus';

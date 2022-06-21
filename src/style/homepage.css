@@ -39,6 +39,10 @@ header h1 {
     transform: scale(1.1);
 }
 
+.homepage_actu:active {
+    transform: scale(1);
+}
+
 .derniere_actu {
     padding: 1rem 2rem 0 2rem;
     font-weight: 600;
@@ -88,7 +92,11 @@ article {
 }
 
 .titre_section:hover {
-    transform: scale(1.05);
+    transform: scale(1.025);
+}
+
+.titre_section:active {
+    transform: scale(1);
 }
 
 .titre_section hr {
@@ -125,6 +133,10 @@ article {
 
 .actu_card:hover {
     transform: scale(1.1);
+}
+
+.actu_card:active {
+    transform: scale(1);
 }
 
 .actu_card img {
@@ -164,8 +176,8 @@ article {
     transform: translateX(10px);
 }
 
-.see_more .active {
-    transform: translateX(400px);
+.see_more:active {
+    background-color: var(--rouge);
 }
 
 /* EVENEMENTS */
@@ -216,6 +228,10 @@ article {
 .event:hover {
     transform: scale(1.05);
     box-shadow: 5px 5px 5px #555;
+}
+
+.event:active {
+    transform: scale(1.01);
 }
 
 .date_event {
