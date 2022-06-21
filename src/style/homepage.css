@@ -73,6 +73,10 @@ header h1 {
     padding: 7rem;
 }
 
+article {
+    position: relative;
+}
+
 /* Titre de chaque section */
 
 .titre_section {
@@ -231,4 +235,66 @@ header h1 {
 .titre_event {
     font-size: 1.2em;
     font-weight: 600;
+}
+
+/* SECTION GALERIE */
+
+.liste_images {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    gap: 2rem;
+}
+
+.liste_images .image_card {
+    flex: 1 1 100%;
+    max-width: 25rem;
+}
+
+.liste_images .image {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 3px;
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+}
+
+.liste_images .image:hover {
+    transform: scale(1.1);
+    opacity: .7;
+}
+
+.dialog {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .4s ease-in-out, visibility .4s ease-in-out;
+}
+
+.close_preview {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 3rem;
+    aspect-ratio: 1/1;
+    top: 2rem;
+    right: 2rem;
+    color: #fff;
+    font-size: 1.5em;
+    background-color: rgba(51, 51, 51, 0.6);
+    box-shadow: 0 0 3px #333;
+    transition: border .4s ease-in-out, color .4s ease-in-out, background-color .4s ease-in-out;
+}
+
+.close_preview:hover {
+    border: 2px solid var(--rouge);
+    color: var(--rouge);
+    background-color: #fff;
 }

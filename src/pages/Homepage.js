@@ -5,6 +5,8 @@ import { Actus } from '../components/Actus';
 import { BiRightArrowAlt } from 'react-icons/bi';
 import { EvenementsArray } from '../components/EvenementsArray';
 import HomepageCal from '../components/HomepageCal';
+import { GalleryArray } from '../components/GalleryArray';
+import GalleryCard from '../components/GalleryCard';
 
 const Homepage = () => {
     return (
@@ -41,6 +43,18 @@ const Homepage = () => {
                     ))}
                 </div>
                 <a className='see_more' href="/evenements">Voir plus <BiRightArrowAlt /></a>
+            </article>
+            <article>
+                <div className='titre_section'>
+                    <a href="/galerie">galerie</a>
+                    <hr />
+                </div>
+                <div className='liste_images'>
+                    {GalleryArray.slice(0, 3).map((image) => (
+                        <GalleryCard key={image.id} image={image} />
+                    ))}
+                </div>
+                <a className='see_more' href="/actualites">Voir plus <BiRightArrowAlt /></a>
             </article>
         </section>
     )
