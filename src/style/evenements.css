@@ -1,0 +1,14 @@
+.section_evenements header {
+    background-image: url(../assets/images/even_header.jpg);
+    background-position: center;
+    justify-content: flex-start;
+    padding-left: 22rem;
+}
+
+.section_evenements h1 {
+    text-transform: capitalize;
+}
+
+.evenements_container {
+    margin-top: 3em;
+}

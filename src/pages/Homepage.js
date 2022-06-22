@@ -39,8 +39,8 @@ const Homepage = () => {
                     <hr />
                 </div>
                 <div className='liste_evenements'>
-                    {EvenementsArray.slice(0, 5).map((event) => (
-                        <HomepageCal key={event.id} event={event} />
+                    {EvenementsArray.slice(0, 5).map((event, index) => (
+                        <HomepageCal key={index} event={event} />
                     ))}
                 </div>
                 <a className='see_more' href="/evenements">Voir plus <BiRightArrowAlt /></a>

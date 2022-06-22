@@ -72,7 +72,110 @@ h6 {
     isolation: isolate;
 }
 
+/* Modificactions Globales */
+
 a {
     text-decoration: none;
     color: unset;
+}
+
+article {
+    padding: 5rem 10rem;
+    position: relative;
+    background-color: var(--blanc-casse);
+}
+
+.repaire {
+    display: flex;
+    align-items: center;
+    color: var(--rouge);
+}
+
+.repaire a {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.repaire a:last-child {
+    font-weight: 600;
+}
+
+.art_evenements {
+    background-color: #fff;
+}
+
+.liste_evenements {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    max-width: 50rem;
+}
+
+.event:first-child {
+    border-radius: 25px 25px 0 0;
+}
+
+.event:last-child {
+    border-radius: 0 0 25px 25px;
+}
+
+.event:nth-child(1n) {
+    background-color: #C1C1C1;
+}
+
+.event:nth-child(1n) .date_event {
+    background-color: var(--rouge);
+}
+
+.event:nth-child(2n) {
+    background-color: #DCDCDC;
+}
+
+.event:nth-child(2n) .date_event {
+    background-color: var(--rouge-hover);
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    overflow: hidden;
+    transition: transform .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.event:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px #555;
+}
+
+.event:active {
+    transform: scale(1.01);
+}
+
+.date_event {
+    display: grid;
+    place-items: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    aspect-ratio: 1/1;
+    height: 7rem;
+
+}
+
+.titre_event {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.titre_section {
+    margin: 5rem;
+}
+
+.titre_section p {
+    color: var(--rouge);
+    font-size: 2em;
 }

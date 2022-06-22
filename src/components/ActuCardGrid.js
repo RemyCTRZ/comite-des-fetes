@@ -1,6 +1,6 @@
 const ActuCard = ({ actu }) => {
     return (
-        <a href={actu.lien} className="actu_card">
+        <a href="/actualites" className="actu_card">
             <img className='image' src={actu.image} alt={"aperçu " + actu.titre} />
             <div className="actu_txt">
                 <div className="actu_titre">

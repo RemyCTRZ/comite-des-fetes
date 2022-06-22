@@ -14,12 +14,12 @@ header h1,
 .homepage_actu {
     opacity: 0;
     animation: fade-in 1s ease-in-out forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 @keyframes appear-from-left {
     from {
-        transform: translateX(-100vw);
+        transform: translateX(-50vw);
         opacity: 0;
     }
 
@@ -31,12 +31,12 @@ header h1,
 
 header,
 .art_evenements {
-    animation: appear-from-left 2s ease-in-out forwards;
+    animation: appear-from-left 1s ease-in-out forwards;
 }
 
 @keyframes appear-from-right {
     from {
-        transform: translateX(+100vw);
+        transform: translateX(50vw);
         opacity: 0;
     }
 
@@ -49,9 +49,9 @@ header,
 .art_actualites,
 .art_galerie {
     opacity: 0;
-    animation: appear-from-right 2s ease-in-out forwards;
+    animation: appear-from-right 1s ease-in-out forwards;
 }
 
 .art_actualites {
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
