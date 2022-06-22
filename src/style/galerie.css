@@ -1,0 +1,40 @@
+.section_evenements header {
+    background-image: url(../assets/images/gallery-header.jpg);
+    background-position: center;
+    justify-content: flex-start;
+    padding-left: 22rem;
+}
+
+.galerie_container {
+    column-count: 3;
+    gap: 3rem;
+}
+
+.dialog {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_titre {
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: .2rem;
+}
+
+.galerie_container .image {
+    aspect-ratio: 1/1;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 3px;
+    transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.galerie_container .image:hover {
+    opacity: .7;
+    transform: scale(1.05);
+}

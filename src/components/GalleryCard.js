@@ -25,6 +25,7 @@ const GalleryCard = ({ image }) => {
             <img className={'image'} onClick={() => setPreview(true)} src={image.image} alt={"aperçu " + image.titre} />
             <dialog className={"dialog " + image.id}>
                 <img className='image_preview' src={image.image} alt={"aperçu " + image.titre} />
+                <p className="image_titre">{image.titre}</p>
                 <button className="close_preview" onClick={() => setPreview(false)}><AiOutlineClose /></button>
             </dialog>
         </div>
