@@ -45,7 +45,7 @@ const Homepage = () => {
                 </div>
                 <a className='see_more' href="/evenements">Voir plus <BiRightArrowAlt /></a>
             </article>
-            <article>
+            <article className='art_galerie'>
                 <div className='titre_section'>
                     <a href="/galerie">galerie</a>
                     <hr />
