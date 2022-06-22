@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/comite-des-fetes/static/css/main.ebbec807.css",
-    "main.js": "/comite-des-fetes/static/js/main.fe19ce4c.js",
+    "main.css": "/comite-des-fetes/static/css/main.308b879a.css",
+    "main.js": "/comite-des-fetes/static/js/main.156f1af2.js",
     "static/media/homepage_header.jpg": "/comite-des-fetes/static/media/homepage_header.8eb193be2c77e14f2874.jpg",
     "static/media/ReadexPro-VariableFont_wght.ttf": "/comite-des-fetes/static/media/ReadexPro-VariableFont_wght.efe9d61b1a106c14502b.ttf",
+    "static/media/image-galerie-3.jpg": "/comite-des-fetes/static/media/image-galerie-3.90fec112438af626f5c1.jpg",
     "static/media/actu3.jpg": "/comite-des-fetes/static/media/actu3.ae976b3947b372da6470.jpg",
+    "static/media/image-galerie-2.jpg": "/comite-des-fetes/static/media/image-galerie-2.74d673a286295e6deef2.jpg",
     "static/media/actu2.jpg": "/comite-des-fetes/static/media/actu2.ce064c00d1ddff38e5ff.jpg",
     "static/media/logo_cdf.jpg": "/comite-des-fetes/static/media/logo_cdf.1ba904e982cbad0fd0ce.jpg",
     "static/media/actu1.jpg": "/comite-des-fetes/static/media/actu1.7f45c6e7189c00283783.jpg",
     "static/media/logo_commune.png": "/comite-des-fetes/static/media/logo_commune.2cf3a4ef6420c78c3ea7.png",
     "index.html": "/comite-des-fetes/index.html",
-    "main.ebbec807.css.map": "/comite-des-fetes/static/css/main.ebbec807.css.map",
-    "main.fe19ce4c.js.map": "/comite-des-fetes/static/js/main.fe19ce4c.js.map"
+    "main.308b879a.css.map": "/comite-des-fetes/static/css/main.308b879a.css.map",
+    "main.156f1af2.js.map": "/comite-des-fetes/static/js/main.156f1af2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebbec807.css",
-    "static/js/main.fe19ce4c.js"
+    "static/css/main.308b879a.css",
+    "static/js/main.156f1af2.js"
   ]
 }
