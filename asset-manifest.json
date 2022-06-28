@@ -1,25 +1,44 @@
 {
   "files": {
-    "main.css": "/comite-des-fetes/static/css/main.5c25cd9b.css",
-    "main.js": "/comite-des-fetes/static/js/main.142ee003.js",
+    "main.css": "/comite-des-fetes/static/css/main.041bc2ad.css",
+    "main.js": "/comite-des-fetes/static/js/main.7ad3f1ff.js",
     "static/media/even_header.jpg": "/comite-des-fetes/static/media/even_header.a493d8c9d7b52cc3e156.jpg",
     "static/media/homepage_header.jpg": "/comite-des-fetes/static/media/homepage_header.8eb193be2c77e14f2874.jpg",
     "static/media/gallery-header.jpg": "/comite-des-fetes/static/media/gallery-header.1cd902410c5a48e68ba5.jpg",
     "static/media/actu_header.jpg": "/comite-des-fetes/static/media/actu_header.8101b2d1889b31d63a6e.jpg",
+    "static/media/actu6.jpg": "/comite-des-fetes/static/media/actu6.4b36954803d9e3b79df8.jpg",
+    "static/media/actu19.jpg": "/comite-des-fetes/static/media/actu19.2f7780d877a525c26b53.jpg",
+    "static/media/actu14.jpg": "/comite-des-fetes/static/media/actu14.59071dbad566451e4b9a.jpg",
+    "static/media/actu21.jpg": "/comite-des-fetes/static/media/actu21.28b5c6a4229f2c5b2dc9.jpg",
+    "static/media/actu18.jpg": "/comite-des-fetes/static/media/actu18.19265409f39c42553dd1.jpg",
     "static/media/ReadexPro-VariableFont_wght.ttf": "/comite-des-fetes/static/media/ReadexPro-VariableFont_wght.efe9d61b1a106c14502b.ttf",
+    "static/media/actu24.jpg": "/comite-des-fetes/static/media/actu24.90fec112438af626f5c1.jpg",
     "static/media/image-galerie-3.jpg": "/comite-des-fetes/static/media/image-galerie-3.90fec112438af626f5c1.jpg",
+    "static/media/actu9.jpg": "/comite-des-fetes/static/media/actu9.3e3ad38e8c57b9977a86.jpg",
+    "static/media/actu11.jpg": "/comite-des-fetes/static/media/actu11.635d94e5ebea6d6be205.jpg",
     "static/media/actu3.jpg": "/comite-des-fetes/static/media/actu3.ae976b3947b372da6470.jpg",
+    "static/media/actu12.jpg": "/comite-des-fetes/static/media/actu12.645455f3cf9fedacde44.jpg",
     "static/media/image-galerie-2.jpg": "/comite-des-fetes/static/media/image-galerie-2.74d673a286295e6deef2.jpg",
-    "static/media/actu2.jpg": "/comite-des-fetes/static/media/actu2.ce064c00d1ddff38e5ff.jpg",
+    "static/media/actu22.jpg": "/comite-des-fetes/static/media/actu22.d9eae0af607302c59b9a.jpg",
+    "static/media/actu13.jpg": "/comite-des-fetes/static/media/actu13.c8ca33e3166ff9b7bd1f.jpg",
+    "static/media/actu8.jpg": "/comite-des-fetes/static/media/actu8.ce064c00d1ddff38e5ff.jpg",
+    "static/media/actu16.jpg": "/comite-des-fetes/static/media/actu16.03928c8d094a86130397.jpg",
+    "static/media/actu17.jpg": "/comite-des-fetes/static/media/actu17.d3fc70de513d70312747.jpg",
+    "static/media/actu4.jpg": "/comite-des-fetes/static/media/actu4.3afe283f8663f956c228.jpg",
+    "static/media/actu15.jpg": "/comite-des-fetes/static/media/actu15.08485d6509121f9d8541.jpg",
+    "static/media/actu23.jpg": "/comite-des-fetes/static/media/actu23.064146a964272e28c7f3.jpg",
+    "static/media/actu20.jpg": "/comite-des-fetes/static/media/actu20.d8726c93ef224e9ee586.jpg",
+    "static/media/actu10.jpg": "/comite-des-fetes/static/media/actu10.ceadb19d40edfe4e3a71.jpg",
     "static/media/logo_cdf.jpg": "/comite-des-fetes/static/media/logo_cdf.1ba904e982cbad0fd0ce.jpg",
-    "static/media/actu1.jpg": "/comite-des-fetes/static/media/actu1.7f45c6e7189c00283783.jpg",
+    "static/media/actu7.jpg": "/comite-des-fetes/static/media/actu7.7f45c6e7189c00283783.jpg",
+    "static/media/actu5.jpg": "/comite-des-fetes/static/media/actu5.969185a6c67e7c1bdcdc.jpg",
     "static/media/logo_commune.png": "/comite-des-fetes/static/media/logo_commune.2cf3a4ef6420c78c3ea7.png",
     "index.html": "/comite-des-fetes/index.html",
-    "main.5c25cd9b.css.map": "/comite-des-fetes/static/css/main.5c25cd9b.css.map",
-    "main.142ee003.js.map": "/comite-des-fetes/static/js/main.142ee003.js.map"
+    "main.041bc2ad.css.map": "/comite-des-fetes/static/css/main.041bc2ad.css.map",
+    "main.7ad3f1ff.js.map": "/comite-des-fetes/static/js/main.7ad3f1ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c25cd9b.css",
-    "static/js/main.142ee003.js"
+    "static/css/main.041bc2ad.css",
+    "static/js/main.7ad3f1ff.js"
   ]
 }
