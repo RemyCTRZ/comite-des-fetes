@@ -7,7 +7,7 @@ import GalleryCard from '../components/GalleryCard';
 
 const Galerie = () => {
     return (
-        <section className="section_evenements">
+        <section className="section_galerie">
             <header>
                 <h1>Galerie</h1>
             </header>

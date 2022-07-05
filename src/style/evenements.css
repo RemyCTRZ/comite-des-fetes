@@ -12,3 +12,12 @@
 .evenements_container {
     margin-top: 3em;
 }
+
+@media screen and (max-width: 500px) {
+
+    .section_evenements header {
+        padding-left: unset;
+        padding: 3rem;
+        justify-content: center;
+    }
+}

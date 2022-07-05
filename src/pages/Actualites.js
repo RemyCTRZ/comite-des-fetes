@@ -22,7 +22,7 @@ const Actualites = () => {
                         <ActuFirstCard key={index} actu={actu} />
                     ))}
                     <div className='second_actus'>
-                        {Actus.slice(1, 3).map((actu, index) => (
+                        {Actus.slice(1, 2).map((actu, index) => (
                             <ActuCardP key={index} actu={actu} />
                         ))}
                     </div>
@@ -32,7 +32,7 @@ const Actualites = () => {
                     <hr />
                 </div>
                 <div className='autres_actus'>
-                    {Actus.slice(3).map((actu, index) => (
+                    {Actus.slice(2).map((actu, index) => (
                         <ActuCardP key={index} actu={actu} />
                     ))}
                 </div>

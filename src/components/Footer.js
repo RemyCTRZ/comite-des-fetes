@@ -16,7 +16,7 @@ const Footer = () => {
                     <NavLink to="/actualites" className={({ isActive }) => (isActive ? 'active' : '')}>Actualités</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/evenements" className={({ isActive }) => (isActive ? 'active' : '')}>Evénements</NavLink>
+                    <NavLink to="/evenements" className={({ isActive }) => (isActive ? 'active' : '')}>Événements</NavLink>
                 </li>
                 <li>
                     <NavLink to="/galerie" className={({ isActive }) => (isActive ? 'active' : '')}>Galerie</NavLink>

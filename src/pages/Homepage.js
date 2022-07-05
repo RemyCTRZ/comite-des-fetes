@@ -23,7 +23,7 @@ const Homepage = () => {
             </header>
             <article className='art_actualites'>
                 <div className='titre_section'>
-                    <a href="/actualites">actualités</a>
+                    <a href="/actualites">Actualités</a>
                     <hr />
                 </div>
                 <div className='liste_actualites'>
@@ -35,7 +35,7 @@ const Homepage = () => {
             </article>
             <article className='art_evenements'>
                 <div className='titre_section'>
-                    <a href="/evenements">événements</a>
+                    <a href="/evenements">Événements</a>
                     <hr />
                 </div>
                 <div className='liste_evenements'>
@@ -47,7 +47,7 @@ const Homepage = () => {
             </article>
             <article className='art_galerie'>
                 <div className='titre_section'>
-                    <a href="/galerie">galerie</a>
+                    <a href="/galerie">Galerie</a>
                     <hr />
                 </div>
                 <div className='liste_images'>

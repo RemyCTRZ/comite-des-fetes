@@ -1,6 +1,8 @@
 header {
     position: relative;
     display: flex;
+    padding: 3rem;
+    gap: 3rem;
     justify-content: space-around;
     align-items: center;
     height: 50vh;
@@ -49,6 +51,7 @@ header h1 {
     font-weight: 600;
     font-size: 1em;
     text-decoration: underline;
+    color: #555;
 }
 
 .homepage_actu .actu_txt {
@@ -71,7 +74,6 @@ header h1 {
     color: var(--rouge);
     font-weight: 600;
     font-size: 1.2em;
-    text-transform: capitalize;
 }
 
 /* Titre de chaque section */
@@ -82,14 +84,6 @@ header h1 {
     align-items: baseline;
     gap: 2em;
     transition: transform .4s ease-in-out;
-}
-
-.titre_section:hover {
-    transform: scale(1.025);
-}
-
-.titre_section:active {
-    transform: scale(1);
 }
 
 .titre_section hr {
@@ -141,6 +135,10 @@ header h1 {
 
 .date {
     color: rgba(0, 0, 0, 0.3);
+}
+
+.texte_event {
+    color: #333;
 }
 
 /* Bouton Voir Plus */

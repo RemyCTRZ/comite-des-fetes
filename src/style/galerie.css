@@ -1,4 +1,4 @@
-.section_evenements header {
+.section_galerie header {
     background-image: url(../assets/images/gallery-header.jpg);
     background-position: center;
     justify-content: flex-start;
@@ -37,4 +37,21 @@
 .galerie_container .image:hover {
     opacity: .7;
     transform: scale(1.05);
+}
+
+@media screen and (max-width: 500px) {
+
+    .section_galerie header {
+        padding-left: unset;
+        padding: 3rem;
+        justify-content: center;
+    }
+
+    .galerie_container {
+        column-count: 1;
+    }
+
+    .dialog {
+        display: none;
+    }
 }
