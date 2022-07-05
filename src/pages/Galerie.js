@@ -18,7 +18,7 @@ const Galerie = () => {
                     <a href="/galerie">Galerie</a>
                 </div>
                 <div className='titre_section'>
-                    <p>2022</p>
+                    <p>2021</p>
                     <hr />
                 </div>
                 <div className='galerie_container'>

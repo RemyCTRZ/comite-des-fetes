@@ -11,12 +11,12 @@ const GalleryCard = ({ image }) => {
         if (preview === false) {
             modal[0].style.visibility = "hidden";
             modal[0].style.opacity = "0";
-            modal[0].style.transform = "scale(.5) translate(-50%, -50%)";
+            // modal[0].style.transform = "scale(.5) translate(-50%, -50%)";
         }
         else {
             modal[0].style.visibility = "visible";
             modal[0].style.opacity = "1";
-            modal[0].style.transform = "scale(1) translate(-50%, -50%)";
+            // modal[0].style.transform = "scale(1) translate(-50%, -50%)";
         }
     })
 

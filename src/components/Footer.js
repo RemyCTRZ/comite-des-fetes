@@ -13,6 +13,9 @@ const Footer = () => {
             <hr />
             <ul className='footer_list'>
                 <li>
+                    <NavLink to="/comite-des-fetes" className={({ isActive }) => (isActive ? 'active' : '')}>Accueil</NavLink>
+                </li>
+                <li>
                     <NavLink to="/actualites" className={({ isActive }) => (isActive ? 'active' : '')}>Actualités</NavLink>
                 </li>
                 <li>

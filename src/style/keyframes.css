@@ -1,57 +1,68 @@
-@keyframes fade-in {
-    from {
-        opacity: 0;
-        transform: scale(0.5);
-    }
+ @keyframes appear-from-top {
+     from {
+         transform: translateY(-10vh);
+         opacity: 0;
+     }
 
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
+     to {
+         transform: translateY(0);
+         opacity: 1;
+     }
+ }
 
-header h1,
-.homepage_actu {
-    opacity: 0;
-    animation: fade-in 1s ease-in-out forwards;
+ .navbar,
+ header h1,
+ .homepage_actu {
+     animation: appear-from-top 1s ease-in-out forwards;
+ }
+
+ header h1,
+ .homepage_actu {
     animation-delay: 1s;
-}
-
-@keyframes appear-from-left {
-    from {
-        transform: translateX(-50vw);
-        opacity: 0;
-    }
-
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-header,
-.art_evenements {
-    animation: appear-from-left 1s ease-in-out forwards;
-}
-
-@keyframes appear-from-right {
-    from {
-        transform: translateX(50vw);
-        opacity: 0;
-    }
-
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.art_actualites,
-.art_galerie {
     opacity: 0;
-    animation: appear-from-right 1s ease-in-out forwards;
-}
+ }
 
-.art_actualites {
-    animation-delay: 2s;
-}
+ @keyframes appear-from-left {
+     from {
+         transform: translateX(-30vw);
+         opacity: 0;
+     }
+
+     to {
+         transform: translateX(0);
+         opacity: 1;
+     }
+ }
+
+ header,
+ .art_evenements {
+     animation: appear-from-left 1s ease-in-out forwards;
+ }
+
+ @keyframes appear-from-right {
+     from {
+         transform: translateX(30vw);
+         opacity: 0;
+     }
+
+     to {
+         transform: translateX(0);
+         opacity: 1;
+     }
+ }
+
+ .art_actualites,
+ .art_galerie,
+ .actualites,
+ .evenements,
+ .galerie {
+     opacity: 0;
+     animation: appear-from-right 1s ease-in-out forwards;
+ }
+
+ .art_actualites,
+ .actualites,
+ .evenements,
+ .galerie {
+     animation-delay: 2s;
+ }
